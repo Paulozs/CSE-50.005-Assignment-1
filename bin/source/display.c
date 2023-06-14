@@ -12,6 +12,7 @@ int shellDisplayFile_code(char **args)
     {
         fp = fopen(args[1], "r");
     }
+
     else
     {
         printf("Please supply a file name\n");
